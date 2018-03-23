@@ -1,0 +1,24 @@
+.otp-verify-container {
+  border: 1px solid darkgray;
+  padding: 2.5rem;
+  .otp-box {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.otp-form {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  .otp-form-input-text {
+    padding: .625rem;
+    border-radius: 1rem;
+  }
+  .otp-form-submit {
+    padding: .625rem;
+    margin-top: .625rem;
+    border-radius: 1rem;
+  }
+}

@@ -1,0 +1,27 @@
+.tbl-header {
+  display: block;
+
+  .tbl-header-row {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    border-bottom: 1px solid #e4e4e4;
+
+    .tbl-header-row-cell {
+      flex: 1;
+      height: 40px;
+      display: inline-block;
+      border-right: 1px solid #e4e4e4;
+    }
+
+    .tbl-header-row-cell:first-child {
+      border-left: 1px solid #e4e4e4;
+    }
+
+    .tbl-header-row-cell div {
+      padding: 10px;
+      text-align: center;
+    }
+  }
+}

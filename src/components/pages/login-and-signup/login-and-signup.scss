@@ -1,0 +1,26 @@
+
+.tabs{
+    .tab-list{
+        display: flex;
+        list-style-type:none;
+        padding:0;
+        .tab{
+            display: inline;
+            padding:2rem 2em 1rem 2rem;
+            margin-right:2rem;
+            .focus {
+                outline: none;
+            }
+            .selected{
+                color: black;
+                font-weight: 700;
+                border-bottom: 0.2rem solid #dddddd;
+            }
+            .disabled{
+                           
+            }
+        }
+
+    }
+
+}

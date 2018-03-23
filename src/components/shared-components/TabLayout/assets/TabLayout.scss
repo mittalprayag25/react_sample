@@ -1,0 +1,20 @@
+.tab-container{
+  .tabs {
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    box-shadow: 0px 1px 0px 2px #f7f4f4;
+    .tab-list{
+      .active{
+        color: black;
+        font-weight: 700;
+        border-bottom: 1.5px solid #000000;
+      }
+      .disabled{
+        font-size: 600;
+        color: grey;
+      }
+    }
+  }
+}

@@ -1,0 +1,93 @@
+.site-name {
+  margin-left: 60px;
+  margin-top: 50px;
+}
+
+.carousel-container {
+  display: flex;
+  * {
+    min-height: 0;
+    min-width: 0;
+  }
+}
+
+.page-header{
+  border:0;
+  margin: 0;
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.page-layout{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.hover-bold:hover{
+  font-weight: bold;
+}
+
+.site-name-icon {
+  color: #990000;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 13rem;
+}
+
+.main-container {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  height : 136px;
+}
+
+.footer {
+  background-color: rgb(228, 228, 228);
+  bottom: 0;
+  order: 3;
+  width: 100%;
+}
+
+.main-body {
+  order : 2;
+}
+
+/*iPhone 6*/
+@media (max-width: 375px) {
+  .site-name {
+    margin-left: 25px;
+    font-size: 30px;
+  }
+}
+
+/*Responsive*/
+@media (min-width: 400px) {
+  .site-name {
+    margin-left: 40px;
+    font-size: 30px;
+  }
+}
+
+/*iPhone 6 Plus*/
+@media (min-width: 414px) {
+  .site-name {
+    margin-left: 40px;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .site-name {
+    margin-left: 80px;
+    margin-top: 50px;
+    font-size: 36px;
+  }
+}

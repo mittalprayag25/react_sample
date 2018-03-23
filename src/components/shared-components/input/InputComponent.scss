@@ -1,0 +1,90 @@
+
+@mixin placeholder-color($color) {
+  ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: $color;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: $color;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: $color;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: $color;
+  }
+}
+
+input[type="number"]::-webkit-outer-spin-button, 
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+ 
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.input {
+  background: #FFFFFF;
+  border: 1px solid #E5E5E5;
+  border-radius: 2px;
+  color: #494949;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  @include placeholder-color(#CDCDCD);
+
+  .icon {
+    font-size: 14px;
+  }
+}
+
+.input-icon {
+  flex: 1;
+  min-width: 25px;
+  text-align: center;
+}
+
+.input-field {
+  flex: auto;
+  border: none;
+  border-radius: inherit;
+  width: 80%;
+}
+
+.input-spacer {
+  .input-field {
+    text-indent: 8px;
+  }
+}
+
+.input-field:focus {
+  outline: none;
+}
+
+.login-input {
+  @extend .input;
+  border-radius: 7px;
+  border-color: #D9D9D9;
+  font-size: 18px;
+
+  .input-icon {
+    flex: 2;
+    min-width: 35px;
+  }
+
+  .icon {
+    font-size: 18px;
+  }
+}
+
+.dashboard-input {
+  @extend .input;
+}
+
+.details-input {
+  @extend .input;
+  background: rgba(255,255,255,0.80);
+  border-color: rgba(137,157,169,0.50);
+  color: #008EDD;
+}

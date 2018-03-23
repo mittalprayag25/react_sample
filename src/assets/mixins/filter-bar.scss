@@ -1,0 +1,26 @@
+@import './colour-pallete.scss';
+
+@mixin filter-bar{
+    display: flex;
+    height:30%;
+    width:100%;
+    .content{
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 700;
+        margin-right: 12px;
+    }
+    .drop-down{
+        margin-right: 12px;
+        .dropdown{
+            padding: 0px 10px;
+        }
+    }
+    .apply-button{
+        background-color: $apply-button-color;
+        border: 2px solid $apply-button-border;
+        width:100px;
+        font-weight: 700;
+    }
+}

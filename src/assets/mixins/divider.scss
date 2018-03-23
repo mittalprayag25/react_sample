@@ -1,0 +1,8 @@
+@import './colour-pallete';
+
+@mixin divider{
+    width:100%;
+    hr{
+        border-top: 3px solid $divider-color;
+    }
+};

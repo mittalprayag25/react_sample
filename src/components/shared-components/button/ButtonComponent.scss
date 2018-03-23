@@ -1,0 +1,12 @@
+$button-background-color: #3966B8;
+
+.buttonWrapper {
+    padding-bottom: 20px;
+}
+
+.buttonStyles {
+    border-radius: 10px;
+    background-color: $button-background-color;
+    color: white;
+    border: none;
+}

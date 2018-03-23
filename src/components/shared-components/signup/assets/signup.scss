@@ -1,0 +1,100 @@
+.form_box{
+  margin-top: 5%;
+  .name {
+    width: 100%;
+  }
+  .swap-form{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .input_item{
+    padding: 1px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .or-separator{
+    position: relative;
+    top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .separator{
+    margin-bottom: 10px;
+  }
+  .divider-line {
+    border-bottom: 1px solid #000000;
+    padding-left: 113px;
+    padding-right: 113px;
+  }
+    .button-signup{
+      padding: 8px;
+      background-color: #4a4a4a;
+      width: 100%;
+      color: white;
+      font-size: 16px;
+    }
+  
+    *:focus {
+      outline: none;
+  }
+
+  .verification {
+    display: flex;
+    justify-content: center
+  }
+
+  .form_radio {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 12px;
+  }
+  .input-item-first-name{
+    display: inline;
+    width: 50%;
+  }
+  .input-item-last-name{
+    display: inline;
+    width: 47%;
+    margin-left: 10px;
+  }
+  .label-terms-conditions{
+    font-size: 12px;
+    display: block;
+    margin-top: 3px;
+  }
+  .redirect-login{
+    border-bottom: 1px solid black;
+    cursor: -webkit-grab;
+  }
+  
+  .social-box {
+    display: flex;
+    .social-button-facebook {
+      padding: 8px;
+      margin-top: 10px;
+      background-color: #ffffff;
+      width: 49%;
+      color: #737373;
+      font-size: 16px;
+    }
+  
+    .social-button-google {
+      padding: 8px;
+      margin-top: 10px;
+      background-color: #ffffff;
+      width: 49%;
+      color: #737373;
+      font-size: 16px;
+      margin-left: 5px;
+    }
+  }
+}
+  

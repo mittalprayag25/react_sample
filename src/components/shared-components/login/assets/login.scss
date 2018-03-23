@@ -1,0 +1,94 @@
+.login-box {
+  margin-top: 5%;
+  *:focus {
+    outline: none;
+  }
+  .button-login {
+    padding: 8px;
+    margin-top: 20px;
+    background-color: #4a4a4a;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+  }
+  .or-separator{
+    position: relative;
+    top: 8px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .separator{
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .divider-line {
+    border-bottom: 1px solid #000000;
+    padding-left: 113px;
+    padding-right: 113px;
+  }
+  .swap-form {
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    margin-top: 10px;
+  }
+  .input_item {
+    padding: 1px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .label-terms-conditions {
+    font-size: 12px;
+    display: block;
+  }
+  .password-container {
+    display: flex;
+    color: #747474;
+    font-size: 12px;
+    margin-top: 15px;
+    .show-password {
+      display: flex;
+      flex: .5;
+      span {
+        margin-left: 3px;
+        margin-top: 1px;
+      }
+    }
+    .forgot-password {
+      flex: .5;
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+  .redirect-signup{
+    border-bottom: 1px solid black;
+    cursor: -webkit-grab;
+  }
+  .social-box {
+    margin-top: 20px;
+    .social-button-facebook {
+      padding: 8px;
+      margin-top: 10px;
+      background-color: #ffffff;
+      width: 100%;
+      color: #737373;
+      font-size: 16px;
+    }
+  
+    .social-button-google {
+      padding: 8px;
+      margin-top: 10px;
+      background-color: #ffffff;
+      width: 100%;
+      color: #737373;
+      font-size: 16px;
+      margin-top: 20px;
+    }
+  }
+}
